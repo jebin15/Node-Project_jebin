@@ -1,0 +1,43 @@
+.App {
+  /*text-align: center;*/
+  background-color: #e4ccbf;
+  background-image: url("https://img.freepik.com/free-photo/abstract-blur-hotel-interior_1203-8514.jpg?w=1380&t=st=1710829357~exp=1710829957~hmac=61c998d4f7d115b49b4537e1ac67a533c834ab4487a830162b0a9d0cb8da299d");
+  color: #471515;
+  padding: 20px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
